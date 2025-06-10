@@ -10,10 +10,12 @@
     <title>Meu portfólio</title>
 </head>
 
+
 <body>
     <header class="container text-center">
-        <img src="FotoPerfil.png" alt="Foto de Perfil do José" class="rounded-circle" srcset="" />
-        <p>Olá, meu nome é José</p>
+        <img src="FotoPerfil.png" alt="Foto de Perfil do José" class="rounded-circle" width="150" height=150
+            srcset="" />
+        <p class="lead">Olá, meu nome é José</p>
         <h1>Eu faço jogos e artes</h1>
         <p>
             Sou estudante do ensino médio no Colégio CEIMM. Busco ingressar no
@@ -32,11 +34,11 @@
         </p>
         <p>Minhas habilidades em programação</p>
         <div>
-            <p>GDScript</p>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>JavaScript</p>
-            <p>Scratch</p>
+            <p class="badge bg-secondary">GDScript</p>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
         </div>
 
 
@@ -68,7 +70,7 @@
             <!-- Design -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="Design.png" class="card-img-top"
+                    <img src="DesignFigma.png" class="card-img-top"
                         alt="Imagem de um dos projetos de design de aplicativo" />
                     <div class="card-body">
                         <h5 class="card-title">Design e UI/UX: interface de
@@ -86,7 +88,7 @@
             <!-- Web -->
             <div class="col-md-4">
                 <div class="card">
-                    <img src="Web.png" class="card-img-top" alt="Imagem de um dos projetos de site" />
+                    <img src="WebFilme_HTML.png" class="card-img-top" alt="Imagem de um dos projetos de site" />
                     <div class="card-body">
                         <h5 class="card-title">Web: programação de sites em
                             HTML, CSS e JS
@@ -105,54 +107,183 @@
     </main>
 
     <!-- Modal-1 -->
-    <div class="modal" id="modal1"  tabindex="-1">
-        <div class="modal-dialog">
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog modal-xl">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Modal title</h5>
                     <h5 class="modal-title">GameDev: programação visual
                         Scratch e escrita GDScript</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>
-                        Colheita e Comércio (2024): Jogo de simulação agrícola premiado no Agrinho.
+                    <h3>Ferramentas utilizadas:</h3>
+                    <div>
+                        <p class="badge bg-secondary">Scratch</p>
+                        <p class="badge bg-secondary">Godot</p>
+                        <p class="badge bg-secondary">ibisPaint X</p>
+                        <p class="badge bg-secondary">Pixel Studio</p>
+                        <p class="badge bg-secondary">FL Studio</p>
+                        <p class="badge bg-secondary">Blockbench</p>
+                        <p>
+                        <h4>Colheita e Comércio (2024):</h4> Jogo de simulação agrícola premiado no Agrinho.
                         Possui sistema de cultivo, estamina, fome, minigames, loja com preços
                         dinâmicos, inventário expansível e engine com 300+ blocos próprios. Inclui
                         som, salvamento, trilha original e ciclo dia/noite.
-                    </p>
-                    <p>
-                        Jogo da Lixeira (2023): Jogo educativo feito no início da jornada. Ensina a
+                        </p>
+                        <p>
+                        <h4>Jogo da Lixeira (2023):</h4> Jogo educativo feito no início da jornada. Ensina a
                         separar lixo corretamente (papel, plástico, etc), com limite de tempo e
                         vidas, com traduções para português e inglês. Foi o primeiro jogo premiado
                         no Agrinho, abrindo caminho para os futuros projetos.
-                    </p>
-                    <p>
-                        Fear Motif (2025): Jogo em 3D estilo lowpoly com puzzles e plataforma.
+                        </p>
+                        <p>
+                        <h4>Fear Motif (2025):</h4> Jogo em 3D estilo lowpoly com puzzles e plataforma.
                         Projeto em desenvolvimento com câmera fixa, sistema de vida, coleta de itens
                         e objetos interativos que ativam minigames em 2D.
-                    </p>
+                        </p>
+                    </div>
                     <div class="modal-body-images">
-                        <img src="GameDev2023.png" class="img-fluid w-10" 
+                        <img src="GameDev2023.png" class="img-fluid w-10"
+                            style="position: absolute; left: 620px; top: 360px;"
                             alt="Imagem representativa do projeto de 2023" />
                         <img src="GameDev2025.png" class="img-fluid w-10"
+                            style="position: absolute; left: 620px; top: 570px;"
                             alt="Imagem representativa do projeto de 2025" />
                     </div>
-                    <img src="GameDev2024.png" class="img-fluid w-100" alt="Imagem representativa do projeto de 2024" />
+                    <iframe src="https://scratch.mit.edu/projects/1052365999/embed" allowtransparency="true" width="485"
+                        height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
+                </div>
+                <div class="modal-`footer`">
+                    <a href="https://scratch.mit.edu/projects/1052365999">Ver projeto no site</a>
+                    <a href="https://scratch.mit.edu/projects/1052365999/editor/">Ver código do projeto</a>
                 </div>
             </div>
 
-            <div class="modal-footer">
-                <a href="">Ver projeto ao vivo</a>
-                <a href="">Ver código do projeto</a>
-
-            </div>
         </div>
     </div>
     </div>
     </div>
 
+    <!-- Modal-2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Design e UI/UX: interface
+                        de aplicação mobile e currículo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>Ferramentas utilizadas:</h3>
+                    <div>
+                        <p class="badge bg-secondary">Figma</p>
+                        <p class="badge bg-secondary">Canva</p>
+                        <p class="badge bg-secondary">Google Docs</p>
+                        <p class="badge bg-secondary">ibisPaint X</p>
+                        <p>
+                        <h4>App de Conteúdo (2025):</h4> Protótipo mobile desenvolvido no Figma, 
+                        aplicativo de navegação e compartilhamento, como uma rede social com transações e 
+                        compra de produtos. Telas de login, cadastro, home e página de compra. Interface 
+                        leve, navegação fluida e foco em experiência do usuário.
+ 
+                        </p>
+                        <p>
+                        <h4>Sketch Schedule (2024):</h4> Protótipo mobile desenvolvido no Canva. Abas de 
+                        agenda com lembretes, calculadora científica, editor de PDF tematizado como post-its 
+                        e perfil de usuário. Design escolhido para passar para a segunda fase da Maratona Tech 
+                        com certificado.
+
+                        </p>
+                        <p>
+                        <h4>Currículo (2024):</h4> Projeto criado no Google Docs a partir de curso da Alura. 
+                        Layout limpo, com foco em informações organizadas para uma estrutura clara e leitura 
+                        fluida. Ainda assim, mesmo sendo um documento é bastante básico.
+
+                        </p>
+                    </div>
+                    <div class="modal-body-images">
+                        <img src="DesignCanva.png" class="img-fluid w-10"
+                            style="position: absolute; left: 620px; top: 360px;"
+                            alt="Sketch Schedule no Canva" />
+                        <img src="DesignDocs.png" class="img-fluid w-10"
+                            style="position: absolute; left: 620px; top: 570px;"
+                            alt="Currículo no Google Docs" />
+                    </div>
+                    <img src="DesignFigma.png" class="img-fluid w-50" alt="Imagem representativa do projeto de 2024" />
+
+                </div>
+                <div class="modal-`footer`">
+                    <a class="badge badge-pill text-bg-dark" href="https://www.figma.com/proto/DjrPWLSfGfUzbUGf1eEdjo/Prot%C3%B3tipo-de-APP?t=IZZ0GYgOE7dcTJqX-1">Ver projeto ao
+                        vivo</a>
+                    <a class="badge badge-pill text-bg-dark" href="https://www.figma.com/design/DjrPWLSfGfUzbUGf1eEdjo/Prot%C3%B3tipo-de-APP?m=dev&t=IZZ0GYgOE7dcTJqX-1">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- Modal-3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Web: programação de sites 
+                        em HTML, CSS e JavaScript</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>Ferramentas utilizadas:</h3>
+                    <div>
+                        <p class="badge bg-secondary">HTML</p>
+                        <p class="badge bg-secondary">CSS</p>
+                        <p class="badge bg-secondary">p5.js</p>
+                        <p>
+                        <h4>Site de Filmes (2024):</h4> Blog criado com HTML e CSS como projeto de certificação 
+                        no curso da Alura. Traz trailers em players organizados em um layout leve, com design 
+                        responsivo ideal para navegação rápida.
+ 
+                        </p>
+                        <p>
+                        <h4>Recomendador de Filmes (2024):</h4> Feito com JavaScript no p5.js como projeto de 
+                        certificação da Alura. Recomenda filmes com base nas respostas do usuário, com sistema 
+                        lógico baseado em condicionais simples e eficazes.
+
+                        </p>
+                        <p>
+                        <h4>Pong Multiplayer (2024):</h4> Jogo em JavaScript no p5.js, para dois jogadores, 
+                        com controles por WASD e setas. Desenvolvido como projeto de certificação em curso da 
+                        Alura, com marcador de pontos e mecânica funcional.
+
+                        </p>
+                    </div>
+                    <div class="modal-body-images">
+                        <img src="WebFilme_p5.js.png" class="img-fluid w-10"
+                            style="position: absolute; left: 620px; top: 360px;"
+                            alt="Sketch Schedule no Canva" />
+                        <img src="WebPong_p5.js.png" class="img-fluid w-10"
+                            style="position: absolute; left: 620px; top: 570px;"
+                            alt="Currículo no Google Docs" />
+                    </div>
+                    <iframe src="https://mazutti-j.github.io/jofrancisflix/" allowtransparency="false" width="50%"
+                        height="402" frameborder="0" scrolling="yes" allowfullscreen></iframe>
+
+                </div>
+                <div class="modal-`footer`">
+                    <a class="badge badge-pill text-bg-dark" href="https://mazutti-j.github.io/jofrancisflix/">Ver projeto ao
+                        vivo</a>
+                    <a class="badge badge-pill text-bg-dark" href="https://github.com/Mazutti-J/jofrancisflix">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
 
     <footer class="container py-5">
         <h2>Entre em contato</h2>

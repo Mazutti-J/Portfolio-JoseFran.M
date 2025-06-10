@@ -4,6 +4,8 @@
     --cor-principal: #6e859f;
     --cor-secundaria: #284260;
     --cor-destaque: #FF8800;
+    --cor-intermediaria: #6E859F;
+
 }
 
 body {
@@ -16,6 +18,20 @@ h2,
 h5 {
     color: var(--cor-secundaria);
     font-weight: 700;
+}
+
+h3{
+    color: var(--cor-intermediaria);
+    font-size: small;
+}
+
+h4{
+    color: var(--cor-intermediaria);
+    font-weight: 700;
+    font-size: small;
+}
+.bedge{
+    color: var(--cor-destaque);
 }
 
 .lead,
