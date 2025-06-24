@@ -30,9 +30,6 @@ h4{
     font-weight: 700;
     font-size: small;
 }
-.bedge{
-    color: var(--cor-destaque);
-}
 
 .lead,
 .btn-link {
@@ -48,3 +45,32 @@ a,
 a:hover {
     color: var(--cor-destaque);
 }
+
+#wrap {
+    width: 50%;
+    height: 402px;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  #scaled-frame {
+    width: 1000px;
+    height:2000px;
+    border: 0px;
+  }
+  
+  #scaled-frame {
+    zoom: 0.75;
+    -moz-transform: scale(0.75);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.75);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.75);
+    -webkit-transform-origin: 0 0;
+  }
+  
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    #scaled-frame {
+      zoom: 1;
+    }
+  }

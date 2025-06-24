@@ -238,13 +238,13 @@
                 <div class="modal-body">
                     <h3>Ferramentas utilizadas:</h3>
                     <div>
-                        <p class="badge bg-secondary">HTML</p>
-                        <p class="badge bg-secondary">CSS</p>
+                        <p class="badge bg-secondary">Visual Studio Code</p>
+                        <p class="badge bg-secondary">GitHub</p>
                         <p class="badge bg-secondary">p5.js</p>
                         <p>
                         <h4>Site de Filmes (2024):</h4> Blog criado com HTML e CSS como projeto de certificação 
                         no curso da Alura. Traz trailers em players organizados em um layout leve, com design 
-                        responsivo ideal para navegação rápida.
+                        responsivo ideal para navegação rápida. (Projeto refeito em 2025 por exclusão acidental.)
  
                         </p>
                         <p>
@@ -268,7 +268,9 @@
                             style="position: absolute; left: 620px; top: 570px;"
                             alt="Currículo no Google Docs" />
                     </div>
-                    <img src="WebFilme_HTML.png" class="img-fluid w-50" alt="Imagem representativa do projeto de 2024" />
+                    <div id="wrap">
+                        <iframe id="scaled-frame" src="https://mazutti-j.github.io/jofrancisflix/" frameborder="0" scrolling="yes" allowfullscreen></iframe>
+                    </div>
 
                 </div>
                 <div style="padding: 10px;" class="modal-`footer`">
@@ -303,6 +305,12 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
+    <script>
+        var div = document.getElementById("target");
+        div.onload = function() {
+        div.style.height = div.contentWindow.document.body.scrollHeight + 'px';
+        }
+    </script>
 </body>
 
 </html>
